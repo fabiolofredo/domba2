@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color:#b7e9fd;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    font-weight: bold;
+ 
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar a:hover {
+    color: #1f618d;
+  }
+  
+  .has-submenu ul {
+    display: none;
+    padding-left: 15px;
+  }
+  
+  .has-submenu:hover ul {
+    display: block;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Adapte as cores conforme necessário */
+  
+
+  /* Cores suaves e neutras */
+body {
+    background-color: #f0f0f0; /* Cinza claro ou outra cor suave de sua escolha */
+  }
+  
+  /* Texto em cores neutras */
+  p {
+    color: #333; /* Cinza escuro ou outra cor neutra de sua escolha */
+  }
+  
+  /* Links em azul suave */
+  a {
+    color: #3498db; /* Azul suave ou outra cor de link suave de sua escolha */
+  }
+  
+  /* Botões em verde suave */
+  .button {
+    background-color: #2ecc71; /* Verde suave ou outra cor de botão de sua escolha */
+    color: #fff; /* Texto branco para contraste */
+  }
+  
+  /* Contraste entre texto e fundo */
+  h1, h2, h3, h4, h5, h6 {
+    color: #000; /* Texto preto em fundo claro para melhor contraste */
+  }
+  
+  /* Bordas e linhas em tons mais escuros para definir elementos */
+  .container {
+    border: 1px solid #ccc; /* Borda cinza para definição */
+  }
+  
+  /* Pseudo-classes para interações de link */
+  a:hover {
+    color: #1f618d; /* Tom mais escuro de azul ao passar o mouse sobre links */
+  }
+  
+  /* Adapte as cores conforme necessário, mantendo a consistência no design. */
+  *{
+    font-family: Arial, sans-serif;
+  }
