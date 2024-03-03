@@ -1,3 +1,3 @@
 https://username.github.io/{repoName}/index.html
 
-https://fabiolofredo.github.io/teste2/
+https://fabiolofredo.github.io/domba2/
